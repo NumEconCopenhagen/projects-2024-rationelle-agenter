@@ -2,8 +2,8 @@
 
 **Group members:**
 - Alexander Lennings
-- B
-- C
+- Silas
+- Jakob
 
 This repository contains  
 1. Inaugural project. 
