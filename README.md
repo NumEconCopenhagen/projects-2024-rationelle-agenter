@@ -1,7 +1,7 @@
 # \[Rationelle agenter\]
 
 **Group members:**
-- Alexander Lennings
+- Alexander
 - Silas
 - Jakob
 
