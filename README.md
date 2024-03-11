@@ -1,7 +1,7 @@
-# \[Group name\]
+# \[Rationelle agenter\]
 
 **Group members:**
-- A
+- Alexander Lennings
 - B
 - C
 
