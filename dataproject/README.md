@@ -2,7 +2,7 @@
 
 Our project is titled **DataProject** and is about differences between genders in regards to receival of government grants and unemployment, across different areas in Denmark..
 
-The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
+The **results** of the project can be seen from running [dataproject1.ipynb](dataproject1.ipynb).
 
 We apply the **following datasets** from Statistics Denmark:
 
