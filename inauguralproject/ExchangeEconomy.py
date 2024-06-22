@@ -24,11 +24,11 @@ class ExchangeEconomyClass:
 
     def utility_A(self,x_A1,x_A2):
         par=self.par
-        return x_A1**par.alpha + x_A2**(1-par.alpha)
+        return x_A1**par.alpha * x_A2**(1-par.alpha)
 
     def utility_B(self,x_B1,x_B2):
         par=self.par
-        return x_B1**par.beta + x_B2**(1-par.beta)
+        return x_B1**par.beta * x_B2**(1-par.beta)
 
     def demand_A(self,p1):
         par=self.par
