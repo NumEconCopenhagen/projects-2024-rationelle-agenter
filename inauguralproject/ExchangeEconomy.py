@@ -117,6 +117,26 @@ class ExchangeEconomyClass:
         utility = -(x1A ** par.alpha * x2A ** (1 - par.alpha))
         return utility
     
+
+    def objective_function2(self, p1, alpha, w1B, w2B, p2):
+        par = self.par
+        p1 = p1[0]  
+
+        # Calculate demand for Agent B
+        x1B, x2B = self.demand_B(p1)
+        
+        # Calculate leftovers for Agent A
+        x1A = par.w1A + par.w1B - x1B
+        x2A = par.w2A + par.w2B - x2B
+        
+        # Ensure non-negative consumption
+        x1A = max(0, x1A)
+        x2A = max(0, x2A)
+        
+        # Calculate utility for Agent A
+        utility = -(x1A ** par.alpha * x2A ** (1 - par.alpha))
+        return utility
+
     def objective_A(self, x):
         par=self.par
         x1A, x2A = x
