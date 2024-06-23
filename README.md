@@ -7,5 +7,7 @@
 
 This repository contains  
 1. Inaugural project. 
-2. Data project. We fetch data from **source x** on **y** and show that ...
-3. Model project. We model ...
+2. Data project.
+3. Model project. 
+4. Exam_2024
+
